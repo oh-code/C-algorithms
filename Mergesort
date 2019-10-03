@@ -43,7 +43,7 @@ void merge(int arr[], int l, int m, int r)
 	{ 
 		arr[k] = R[j]; 
 		j++; 
-		 
+		k++;
 	} 
 } 
 void mergeSort(int arr[], int l, int r) 
